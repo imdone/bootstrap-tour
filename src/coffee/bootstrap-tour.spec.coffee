@@ -742,7 +742,7 @@ describe 'Bootstrap Tour', ->
     expect(@tour._timer).toBe null
     expect(@tour._duration).toBe null
 
-  ### TODO: fix $.support.transition conflict between jquery and bootstrap
+  ### TODO: fix $.support.transition conflict between jquery and bootstrap id:0 gh:1
   it 'should not display inactive popover upon rapid navigation', ->
     # Flag that gives signal to the async test that it should evaluate.
     $.support.transition = true
